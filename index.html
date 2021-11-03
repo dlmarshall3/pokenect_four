@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokénect Four</title>
+    <link rel="stylesheet" href="index.app.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Pokénect Four</h1>
+</div>
+<div id="btnPlayDiv" class="header">
+    <button id="btnPlay">Play</button>
+</div>
+
+<div id="gameHidden" class="hidden">
+    <div id="choices">
+        <span><img src="img/pokeball.gif" class="pokeball" id="chillBall1"><button id="chill" class="gameSelect">Chill</button><img src="img/pokeball.gif" class="pokeball" id="chillBall2"></span>
+        <span><img src="img/pokeball.gif" class="pokeball" id="feverBall1"><button id="fever" class="gameSelect">Fever</button><img src="img/pokeball.gif" class="pokeball" id="feverBall2"></span>
+    </div>
+</div>
+
+<div id="pkmn" class="display">
+    <img src="img/starter.png">
+</div>
+
+<div id="control">
+    <img src="img/playpauseball.png" onclick="play()">
+</div>
+
+<audio id="hover" src="music/hover.wav" type="audio/wav">
+<audio id="save" src="music/save.wav" type="audio/wav">
+<audio id="intro" src="music/opening.mp3" type="audio/wav">
+
+<script src="index.app.js"></script>
+</body>
+</html>

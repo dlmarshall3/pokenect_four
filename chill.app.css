@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Pokemon';
+    font-style: bold;
+    src: local('Pokemon'), url('font/Pokemon\ Solid.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon';
+    font-style: italic;
+    src: local('Pokemon'), url('font/Pokemon\ Hollow.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: url('img/chill-bg-1.jpeg')
+}
+
+h1 {
+    font-family: 'Pokemon';
+    font-style: bold;
+    font-size: 72px;
+    color: #ffcb05;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 2px #2a75bb;
+}
+
+#board td {
+    width: 75px;
+    height: 75px;
+    border: solid 5px white;
+    background-color: rgba(255,255,255,.25)
+}
+
+#column-top td {
+    border: solid 5px white;
+}
+
+#column-top td:hover {
+    border: dashed 5px white;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#playBtn {
+    background-color: rgba(255,255,255,.5);
+    color: black;
+    font-family: 'Press Start 2P', sans-serif;
+    border: 10px solid black;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#restart {
+    margin-left: 10px;
+    background-color: rgba(255,255,255,.5);
+    color: black;
+    font-family: 'Press Start 2P', sans-serif;
+    border: 10px solid black;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piece {
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.piece.p1 {
+    background-image: url('img/pokeball-piece-1.png')
+}
+
+.piece.p2 {
+    background-image: url('img/pokeball-piece-2.png')
+}
+
+
+
+
+
+
+

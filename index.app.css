@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Pokemon';
+    font-style: bold;
+    src: local('Pokemon'), url('font/Pokemon\ Solid.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon';
+    font-style: italic;
+    src: local('Pokemon'), url('font/Pokemon\ Hollow.ttf')
+}
+
+body {
+    background-color: rgba(253,233,184,255);
+}
+
+h1 {
+    font-family: 'Pokemon';
+    font-style: bold;
+    font-size: 72px;
+    color: #ffcb05;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 2px #2a75bb;
+}
+
+#control {
+    position: fixed;
+    right: 35px;
+    bottom: 25px;
+}
+
+#btnPlay {
+    margin-top: 5px;
+    margin-bottom: 157px;
+    font-family: 'Pokemon';
+    font-style: bold;
+    font-size: 48px;
+    color: #ffcb05;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 3px #2a75bb;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 90px;
+    border: none;
+}
+
+#song p {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnHide {
+    display: none;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameSelect {
+    margin-top: 5px;
+    font-family: 'Pokemon';
+    font-style: bold;
+    font-size: 48px;
+    color: #ffcb05;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 3px #2a75bb;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 90px;
+    border: none;
+}
+
+.pokeball {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.reveal {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+

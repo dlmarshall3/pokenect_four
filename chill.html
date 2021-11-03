@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokénect Four | Chill</title>
+    <link rel="stylesheet" href="chill.app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Pokénect Four</h1>
+    </div>
+
+    <div id="controls">
+        <button id="playBtn" onclick="play()">Play/Pause Music</button>
+        <button id="restart" onclick="document.location.reload(true)">Restart Game</button>
+    </div>
+   
+   
+<div id="game">
+    <table id="board"></table>
+</div>
+
+<audio id="chillMusic" src="music/chill.mp3" type="audio/wav"></audio>
+<!--Song is Undella Town (Summer) (Lo-fi Remix) - "Villa 'n Chill" by Snivys-->
+<audio id="ballSFX" src="music/toss.wav" type="audio/wav"></audio>
+<audio id="victory" src="music/win.wav" type="audio/wav"></audio>
+
+<script src="chill.app.js"></script>
+
+</body>
+</html>
