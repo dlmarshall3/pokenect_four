@@ -70,7 +70,6 @@ function makeHtmlBoard() {
    const piece = document.createElement('div');
    piece.classList.add('piece');
    piece.classList.add(`p${currPlayer}`);
-   piece.style.top = -50 * (y + 2);
 
    const cell = document.getElementById(`${y}-${x}`);
    cell.append(piece);
@@ -132,10 +131,9 @@ function endGame(msg) {
    // check for tie
    // TODO: check if all cells in board are filled; if so call, call endGame
 
-   if(board[0].every(cell => cell)){
-     return endGame('Tie!')
-   }
- 
+   if(board.every(row => row.every(cell => cell))) {
+    return endGame('Tie!')
+  }
    // switch players
    // TODO: switch currPlayer 1 <-> 2
    currPlayer = currPlayer === 1 ? 2 : 1;
