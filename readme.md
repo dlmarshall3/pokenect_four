@@ -10,6 +10,8 @@ Rules
 
 Pretty simple: first player to get four in a row (horizontally, vertically, or diagonally) wins! To play your piece, make sure to click on one of the squares in the top row. That's it!
 
+<a href="https://dlmarshall3.github.io/pokenect_four/"><img src="clicktoplay.png"></a>
+
 Generic Disclaimer
 -----
 
